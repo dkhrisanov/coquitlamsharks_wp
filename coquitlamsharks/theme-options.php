@@ -60,7 +60,7 @@ load_theme_textdomain( 'devdmbootstrap3', get_template_directory() . '/languages
     );
 
     $defaults = array(
-        'default-image'          => get_template_directory_uri() . 'img/header.jpg',
+        'default-image'          => get_template_directory_uri() . '/img/header.jpg',
         'width'                  => 1300,
         'height'                 => 200,
         'flex-height'            => true,
