@@ -9,11 +9,11 @@
  *        */
 
 .sharks-container {
-
+    height: calc(100% - 150px)
 }
 
-.sharks-header img{
-    width:100%;
+.sharks-header img {
+    width: 100%;
 }
 
 .sharks-header-img {
@@ -54,7 +54,7 @@
 .sharks-footer {
     background-color: #08416B;
     color: #FBFCFB;
-    height:300px;
+    height: 150px;
 }
 
 .sharks-navbar {
@@ -68,29 +68,49 @@
     font-weight: 400;
 }
 
-
-html,body {
-    min-height:100%;
-    padding:0;
-    height:100%;
+html, body {
+    min-height: 100%;
+    padding: 0;
+    height: 100%;
 }
-
 
 @media (min-width: 768px) {
     .navbar .nav,
     .navbar .nav > li {
-      float:none;
-      display:inline-block;
-      vertical-align: top;
+        float: none;
+        display: inline-block;
+        vertical-align: top;
     }
 
     .navbar-collapse {
-      text-align:center;
+        text-align: center;
     }
 }
 
-@media(max-width:768px){
+@media (max-width: 768px) {
     .buttonfixed {
-        display:none;
+        display: none;
     }
 }
+
+.sharks-footer-link {
+    display: inline-block;
+    padding: 10px;
+}
+
+.sharks-footer-link li {
+    display: inline-block;
+    float: left;
+    padding: 5px;
+    width: 50%;
+}
+
+.sharks-footer-link a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sharks-footer-link a:hover {
+    opacity: 0.5;
+}
+
