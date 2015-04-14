@@ -20,7 +20,7 @@
 
                      $total_results = $wp_query->found_posts;
 
-                     echo "<h2 class='page-header'>" . sprintf( __('%s Search Results for "%s"','devdmbootstrap3'),  $total_results, get_search_query() ) . "</h2>";
+                     echo "<h3 class='page-header'>" . sprintf( __('%s Search Results for "%s"','Coquitlam Sharks'),  $total_results, get_search_query() ) . "</h3>";
 
                      if ($total_results == 0) :
                          get_search_form(true);
@@ -38,7 +38,7 @@
 
                             <div <?php post_class(); ?>>
 
-                                <h2 class="page-header"><?php the_title() ;?></h2>
+                                <h3 class="page-header"><?php the_title() ;?></h3>
 
                                 <?php if ( has_post_thumbnail() ) : ?>
                                     <?php the_post_thumbnail(); ?>
@@ -55,9 +55,9 @@
                         else : ?>
                            <div <?php post_class(); ?>>
 
-                                <h2 class="page-header">
+                                <h3 class="page-header">
                                     <a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'devdmbootstrap3' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
-                                </h2>
+                                </h3>
 
                                 <?php if ( has_post_thumbnail() ) : ?>
                                    <?php the_post_thumbnail(); ?>
