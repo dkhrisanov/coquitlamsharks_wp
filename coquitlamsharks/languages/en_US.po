@@ -99,7 +99,7 @@ msgid "Options"
 msgstr ""
 
 #: theme-options.php:19
-msgid "DevDm Options"
+msgid "sharks Options"
 msgstr ""
 
 #: theme-options.php:57
@@ -155,7 +155,7 @@ msgid "Give Danny His Credit?"
 msgstr ""
 
 #: theme-options.php:309
-msgid "Show me some love and keep a link to DevDm.com in your footer."
+msgid "Show me some love and keep a link to sharks.com in your footer."
 msgstr ""
 
 #: theme-options.php:316

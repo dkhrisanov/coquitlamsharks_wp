@@ -1,4 +1,4 @@
-## DevDmBootstrap3
+## coquitlamsharks
 
 This is a starter WordPress theme for DEVELOPERS using Twitter Bootstrap 3.3.4.
 
@@ -6,13 +6,13 @@ A lot of folks have been saying that there isn't a good theme out there for deve
 
 ### Documentation / Demo (in progress)
 
-http://devdm.com/DevDmBootstrap3/
+http://sharks.com/coquitlamsharks/
 
 ### Copyrights and License Information for theme resources
 
-i) DevDmBootstrap3 uses elements from the Twitter Bootstrap Framework, which is under The MIT License (MIT).
-ii) DevDmBootstrap3 uses the GLPHYICONS Halflings included in the Twitter Bootstrap Framework, which is under the Apache v2 license.
-iii) DevDMBootstrap3 uses Edward McIntyre’s wp_boot_strap_navwalker https://github.com/twittem/wp-bootstrap-navwalker GPL v3.
+i) coquitlamsharks uses elements from the Twitter Bootstrap Framework, which is under The MIT License (MIT).
+ii) coquitlamsharks uses the GLPHYICONS Halflings included in the Twitter Bootstrap Framework, which is under the Apache v2 license.
+iii) coquitlamsharks uses Edward McIntyre’s wp_boot_strap_navwalker https://github.com/twittem/wp-bootstrap-navwalker GPL v3.
 
 
-Everything else used in this theme (including the screenshot.png) has been created by me (Danny Machal), especially for the DevDmBootstrap3 theme and is distributed under GPL v3 license.
+Everything else used in this theme (including the screenshot.png) has been created by me (Danny Machal), especially for the coquitlamsharks theme and is distributed under GPL v3 license.

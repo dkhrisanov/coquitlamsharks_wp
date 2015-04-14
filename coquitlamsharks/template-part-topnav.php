@@ -1,12 +1,11 @@
-
-<?php if ( has_nav_menu( 'main_menu' ) ) : ?>
+<?php if (has_nav_menu('main_menu')) : ?>
 
     <div class="sharks-top-menu">
         <nav class="navbar sharks-navbar navbar-inverse" role="navigation">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1-collapse">
-                        <span class="sr-only"><?php _e('Toggle navigation','devdmbootstrap3'); ?></span>
+                        <span class="sr-only"><?php _e('Toggle navigation', 'coquitlamsharks'); ?></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -14,18 +13,18 @@
                 </div>
 
                 <?php
-                wp_nav_menu( array(
-                        'theme_location'    => 'main_menu',
-                        'depth'             => 2,
-                        'container'         => 'div',
-                        'container_class'   => 'collapse navbar-collapse navbar-1-collapse',
-                        'menu_class'        => 'nav navbar-nav',
-                        'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-                        'walker'            => new wp_bootstrap_navwalker())
+                wp_nav_menu(array(
+                        'theme_location' => 'main_menu',
+                        'depth' => 2,
+                        'container' => 'div',
+                        'container_class' => 'collapse navbar-collapse navbar-1-collapse',
+                        'menu_class' => 'nav navbar-nav',
+                        'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
+                        'walker' => new wp_bootstrap_navwalker())
                 );
                 ?>
             </div>
         </nav>
     </div>
-    <img style="width:100%;" src="<?php echo get_template_directory_uri() . '/img/hero_graphic1.jpg' ?>" />
+    <img style="width:100%;" src="<?php echo get_template_directory_uri() . '/img/hero_graphic1.jpg' ?>"/>
 <?php endif; ?>
