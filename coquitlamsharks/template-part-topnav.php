@@ -26,5 +26,4 @@
             </div>
         </nav>
     </div>
-    <img style="width:100%;" src="<?php echo get_template_directory_uri() . '/img/hero_graphic1.jpg' ?>"/>
 <?php endif; ?>

@@ -80,11 +80,11 @@ html, body {
     height: 100%;
 }
 
-h3 {
+h1, h2, h3, h4 {
     background: url('img/large_dropdown.jpg') center 0 no-repeat;
-    background-size: 100%;
+    background-size: cover;
     color: #fff;
-    padding: 5px;
+    padding: 4px;
     margin: 0;
     display: block;
 }
