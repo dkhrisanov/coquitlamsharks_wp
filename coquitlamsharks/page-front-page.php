@@ -48,7 +48,7 @@
             <img src="<?php echo get_template_directory_uri() . '/img/hero_icon_wp.png' ?>"/>
         </a><a href="<?php echo get_site_url() ?>/diving-2">
             <img src="<?php echo get_template_directory_uri() . '/img/hero_icon_dive.png' ?>"/>
-        </a><a href="<?php echo get_site_url() ?>/synchro-2">
+        </a><a href="<?php echo get_site_url() ?>/synchronized-2">
             <img src="<?php echo get_template_directory_uri() . '/img/hero_icon_synchro.png' ?>"/>
         </a>
     </div>
