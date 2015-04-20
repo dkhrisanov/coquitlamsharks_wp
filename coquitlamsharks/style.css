@@ -137,3 +137,11 @@ h1, h2, h3, h4 {
     background-color: #fff;
     color: #555;
 }
+
+
+.sharks-header {
+    background: url('img/top_header.png') center 0 no-repeat;
+    background-size: cover;
+    text-align:center;
+}
+
