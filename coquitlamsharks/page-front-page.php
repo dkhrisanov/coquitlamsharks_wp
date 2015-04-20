@@ -12,20 +12,23 @@
 
     .sports {
         margin: 0 auto;
-        height: 240px;
+        height: 350px;
+	display:table;
         text-align: center;
     }
 
     .sports a {
-        display: inline-block;
+	display:table-cell;
+        vertical-align:bottom;
         margin: 0;
         padding: 0;
         height: 100%;
     }
 
     .sports a:hover {
-        background: rgba(0, 0, 0, 0.2)
+        background: rgba(0, 0, 0, 0.3) !important;
     }
+
 
     @media (max-width: 800px){
         .sports {
@@ -42,11 +45,11 @@
 </style>
 <div class="header-image">
     <div class="sports">
-        <a href="<?php echo get_site_url() ?>/swimming-2">
+        <a href="<?php echo get_site_url() ?>/swimming-2" style="background: rgba(0,0,0,0.1);">
             <img src="<?php echo get_template_directory_uri() . '/img/hero_icon_swim.png' ?>"/>
         </a><a href="<?php echo get_site_url() ?>/water-polo-2">
             <img src="<?php echo get_template_directory_uri() . '/img/hero_icon_wp.png' ?>"/>
-        </a><a href="<?php echo get_site_url() ?>/diving-2">
+        </a><a href="<?php echo get_site_url() ?>/diving-2" style="background: rgba(0,0,0,0.1);">
             <img src="<?php echo get_template_directory_uri() . '/img/hero_icon_dive.png' ?>"/>
         </a><a href="<?php echo get_site_url() ?>/synchronized-2">
             <img src="<?php echo get_template_directory_uri() . '/img/hero_icon_synchro.png' ?>"/>
