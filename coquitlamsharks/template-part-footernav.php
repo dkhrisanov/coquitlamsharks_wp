@@ -19,7 +19,7 @@
                     we acknowledge the financial assistance of the Province of British Columbia
                     <div style="text-align:center;">
                         <img style="width:120px;"
-                             src="<?php echo get_template_directory_uri() . '/img/best-place-on-earth-h-colour.jpg' ?>"/>
+                             src="<?php echo get_template_directory_uri() . '/img/best-place-on-earth-h-colour.png' ?>"/>
                     </div>
                 </div>
             </div>

@@ -42,11 +42,11 @@
                     <?php else: ?>
                         <div <?php post_class(); ?>>
 
-                            <h3 class="page-header">
+                            <h4 class="page-header">
                                 <a href="<?php the_permalink(); ?>"
                                    title="<?php echo esc_attr(sprintf(__('Permalink to %s', 'coquitlamsharks'), the_title_attribute('echo=0'))); ?>"
                                    rel="bookmark"><?php the_title(); ?></a>
-                            </h3>
+                            </h4>
 
                             <?php if (has_post_thumbnail()) : ?>
                                 <?php the_post_thumbnail(); ?>
