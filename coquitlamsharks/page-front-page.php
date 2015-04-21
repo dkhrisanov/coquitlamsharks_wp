@@ -12,14 +12,14 @@
 
     .sports {
         margin: 0 auto;
-        height: 350px;
-	display:table;
+        height: 500px;
+        display: table;
         text-align: center;
     }
 
     .sports a {
-	display:table-cell;
-        vertical-align:bottom;
+        display: table-cell;
+        vertical-align: bottom;
         margin: 0;
         padding: 0;
         height: 100%;
@@ -29,14 +29,19 @@
         background: rgba(0, 0, 0, 0.3) !important;
     }
 
+    @media (max-width: 1200px) {
+        .sports {
+            height: 350px;
+        }
+    }
 
-    @media (max-width: 800px){
+    @media (max-width: 800px) {
         .sports {
             height: 170px;
         }
     }
 
-    @media (max-width: 550px){
+    @media (max-width: 550px) {
         .sports {
             height: 110px;
         }
@@ -66,9 +71,14 @@
         <div class="col-md-6">
             <h3> Summer Schedule </h3>
             <iframe
-                src="https://www.google.com/calendar/embed?showNav=0&showPrint=0&showTabs=0&showTz=0&mode=AGENDA&height=300&wkst=2&src=en.canadian%23holiday%40group.v.calendar.google.com"
-                style=" border-width:0 " width="100%" height="300" frameborder="0" scrolling="no">
-            </iframe>
+                src="https://www.google.com/calendar/embed?title=Practice%20schedule&height=300&wkst=2&src=e212juq1co3t1g9u0alnkd3vfc%40group.calendar.google.com&src=o88i65fu6bd34fjvh4nogb6bss%40group.calendar.google.com&src=9s8nn67pdm7s0ql3f92rrurq6g%40group.calendar.google.com&src=l55s6d5r5f728gf6ki2ukcp8ss%40group.calendar.google.com&src=nute59it1fkrpdcrul75a3vvt8%40group.calendar.google.com&src=hhesu3ufmfvduu3j959tau886g%40group.calendar.google.com&showNav=0&showPrint=0&showTabs=0&showTz=0&mode=AGENDA"
+                style=" border-width:0 " width="100%" height="300" frameborder="0" scrolling="no"></iframe>
+            <!--
+                        <iframe
+                            src="https://www.google.com/calendar/embed?showNav=0&showPrint=0&showTabs=0&showTz=0&mode=AGENDA&height=300&wkst=2&src=en.canadian%23holiday%40group.v.calendar.google.com"
+                            style=" border-width:0 " width="100%" height="300" frameborder="0" scrolling="no">
+                        </iframe>
+            -->
         </div>
         <div class="col-md-6">
             <h3> Team and Special Events</h3>
