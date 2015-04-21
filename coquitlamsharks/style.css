@@ -13,9 +13,16 @@
 }
 
 .sharks-header img {
-    max-height:120px;
+    max-height:180px;
     padding:10px;
 }
+
+@media (max-width: 1024px) {
+  .sharks-header img {
+    max-height:120px;
+  }
+}
+
 
 .sharks-header-img {
 
@@ -69,6 +76,7 @@
     text-transform: uppercase;
     font-weight: 400;
     font-size:18px;
+    font-family: "Oswald","Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 img {
@@ -89,6 +97,7 @@ h1, h2, h3 {
     padding: 6px;
     margin: 0;
     display: block;
+    font-family: "Oswald","Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h4 {
@@ -99,6 +108,7 @@ h4 {
 p {
     margin:2px 0;
 }
+
 
 
 @media (min-width: 768px) {
