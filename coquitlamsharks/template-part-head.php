@@ -8,8 +8,8 @@
     var _gaq = _gaq || [];
     var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
     _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
-    _gaq.push(['_setAccount', 'UA-19899321-1']);
-    _gaq.push(['_setDomainName', '.tradablebits.com']);
+    _gaq.push(['_setAccount', 'UA-60137566-1']);
+    _gaq.push(['_setDomainName', '.coquitlamsharks.org']);
     _gaq.push(['_trackPageview']);
 
     (function () {
