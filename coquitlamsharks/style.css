@@ -79,6 +79,7 @@ p {
 .sharks-footer h4 {
     font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    padding-bottom:10px;
 }
 
 .sharks-footer a, .sharks-footer h4 {

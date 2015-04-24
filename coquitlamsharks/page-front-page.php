@@ -12,7 +12,7 @@
 
     .sports {
         margin: 0 auto;
-        height: 500px;
+        height: 350px;
         display: table;
         text-align: center;
     }
@@ -31,7 +31,7 @@
 
     @media (max-width: 1200px) {
         .sports {
-            height: 350px;
+            height: 250px;
         }
     }
 
@@ -67,7 +67,7 @@
     <br/>
 
 
-    <div class="row">
+    <div class="row" style="margin-bottom:30px;">
         <div class="col-md-12">
             <h3> Summer Schedule </h3>
             <iframe
