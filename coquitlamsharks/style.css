@@ -139,3 +139,45 @@ p {
     color: #26647F;
     background-color: #D7E8F7;
 }
+
+.header-image {
+    background: url('img/hero_header-1.jpg') center 0 no-repeat;
+    background-size: cover;
+}
+
+.sports {
+    margin: 0 auto;
+    height: 350px;
+    display: table;
+    text-align: center;
+}
+
+.sports a {
+    display: table-cell;
+    vertical-align: bottom;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.sports a:hover {
+    background: rgba(0, 0, 0, 0.3) !important;
+}
+
+@media (max-width: 1200px) {
+    .sports {
+        height: 250px;
+    }
+}
+
+@media (max-width: 800px) {
+    .sports {
+        height: 170px;
+    }
+}
+
+@media (max-width: 550px) {
+    .sports {
+        height: 110px;
+    }
+}
