@@ -18,15 +18,16 @@
             <a href="http://www.bcsummerswimming.com/" target="_blank"> BCSSA </a><br/>
             <a href="http://aquasportwest.com/" target="_blank"> Aqua Sport West</a><br/>
             <a href="http://athleteschoiceonline.com/" target="_blank"> Athletes Choice</a><br/>
+            <a href="http://www.coquitlamsharks.org/wp-admin"> Admin Login </a><br/>
         </div>
 
         <div class="col-sm-2">
             <h4> Social Media </h4>
             <a href="http://www.facebook.com/coquitlamsharks">
-                <img src="<?php echo get_template_directory_uri() . '/img/circle-icon-facebook-40x40.png' ?>"/>
+                <img src="<?php echo get_template_directory_uri() . '/img/fb_icon.png' ?>"/>
             </a>
             <a href="http://twitter.com/coquitlamsharks">
-                <img src="<?php echo get_template_directory_uri() . '/img/circle-icon-twitter-40x40.png' ?>"/>
+                <img src="<?php echo get_template_directory_uri() . '/img/twit_icon.png' ?>"/>
             </a>
         </div>
     </div>

@@ -79,7 +79,7 @@ p {
 .sharks-footer h4 {
     font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    padding-bottom:10px;
+    padding-bottom: 10px;
 }
 
 .sharks-footer a, .sharks-footer h4 {
@@ -162,6 +162,33 @@ p {
 
 .sports a:hover {
     background: rgba(0, 0, 0, 0.3) !important;
+}
+
+.schedule {
+    cursor: pointer;
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.schedule:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+.schedule_visible {
+    display: block;
+}
+
+.schedule_hidden {
+    display: none;
+}
+
+.events_table {
+    margin-top: 10px;
+}
+
+.month_header {
+    margin-bottom: 20px;
 }
 
 @media (max-width: 1200px) {
