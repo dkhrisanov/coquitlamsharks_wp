@@ -27,7 +27,7 @@
                 <img src="<?php echo get_template_directory_uri() . '/img/fb_icon.png' ?>"/>
             </a>
             <a href="http://twitter.com/coquitlamsharks">
-                <img src="<?php echo get_template_directory_uri() . '/img/twit_icon.png' ?>"/>
+                <img src="<?php echo get_template_directory_uri() . '/img/twit-icon.png' ?>"/>
             </a>
         </div>
     </div>

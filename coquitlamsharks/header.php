@@ -8,5 +8,6 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>"/>
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <?php wp_head(); ?>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 </head>
 <body <?php body_class(); ?>>

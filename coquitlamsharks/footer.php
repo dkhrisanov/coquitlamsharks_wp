@@ -13,5 +13,12 @@
 
 <!-- end main container -->
 <?php wp_footer(); ?>
+
+<script type="text/javascript">
+    // menu fixes
+    $(document).ready(function(){
+         $('.menu-item-object-custom').find('a').attr('target','_blank');
+    });
+</script>
 </body>
 </html>

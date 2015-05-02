@@ -42,6 +42,10 @@ p {
     margin: 2px 0;
 }
 
+
+.well {
+    background-color: #fbfbfb;
+}
 /* container and grid system */
 
 .sharks-container {
