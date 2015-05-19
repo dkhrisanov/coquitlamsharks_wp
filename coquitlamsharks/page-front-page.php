@@ -93,7 +93,7 @@
         });
     </script>
     <div class="row sharks-content">
-        <div class="col-md-6 sharks-main">
+        <div class="col-md-5 sharks-main">
             <h3> Shark Posts </h3>
             <?php $loop = new WP_Query(array('cat' => 'events', 'showposts' => 5, 'ignore_sticky_posts' => true, 'date_query' => array(
                 array('after' => '12 week ago')
@@ -108,9 +108,14 @@
                 </div>
             <?php endwhile; ?>
         </div>
-        <div class="col-md-6">
-            <h3> Social Media Stories <b>#coquitlamsharks</b></h3>
-            <iframe style="border:0;width:100%; height:900px;"
+        <div class="col-md-7">
+            <h3> Sign up to our mailing list</h3>
+            <br/>
+            <?php mailchimpSF_signup_form(); ?>
+            <br/>
+
+            <h3> Social Media Stories #coquitlamsharks</h3>
+            <iframe style="border:0;width:100%; height:700px;"
                     src="https://tradablebits.com/streams/coquitlamsharks/stream_widget?render_mode=tiled&min_cell=2&text=no&max_cell=3&text=yes&rate=5&single=true"></iframe>
         </div>
     </div>
