@@ -11,7 +11,7 @@
     }
 
     .sports {
-        height: 150px;
+        height: 250px;
         background-color: rgba(0, 0, 0, 0.4);
         overflow: hidden;
     }
