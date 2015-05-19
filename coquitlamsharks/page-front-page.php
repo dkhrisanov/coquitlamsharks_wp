@@ -101,7 +101,11 @@
             <?php while ($loop->have_posts()) : $loop->the_post(); ?>
                 <div>
                     <div class="entry-summary">
-                        <h4><?php the_title(); ?></h4>
+                        <h4>
+                            <a href="<?php the_permalink(); ?>"
+                                                               title="<?php echo esc_attr(sprintf(__('Permalink to %s', 'coquitlamsharks'), the_title_attribute('echo=0'))); ?>"
+                                                               rel="bookmark"><?php the_title(); ?></a>
+                        </h4>
                         <?php get_template_part('template-part', 'postmeta'); ?>
                         <?php the_content(); ?>
                     </div>

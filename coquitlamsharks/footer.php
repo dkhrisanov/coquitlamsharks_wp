@@ -17,7 +17,7 @@
 <script type="text/javascript">
     // menu fixes
     $(document).ready(function(){
-         $('.menu-item-object-custom').find('a').attr('target','_blank');
+         $('.menu-item-object-custom > a').attr('target','_blank');
     });
 </script>
 </body>

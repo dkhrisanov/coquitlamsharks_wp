@@ -9,7 +9,13 @@
         <div class="row sharks-content">
 
             <div class="col-md-12 sharks-main">
-                <h2><?php _e('Sorry This Page Does Not Exist!', 'coquitlamsharks'); ?></h2>
+                <div style="text-align:center;">
+                    <h3><?php _e('Sorry This Page Does Not Exist!', 'coquitlamsharks'); ?></h3>
+
+                    <a href="<?php echo esc_url(home_url('/')); ?>">
+                        <img src="<?php echo get_template_directory_uri() . '/img/shark_logo-header.png' ?>" style=width:400px;padding:50px;/>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
