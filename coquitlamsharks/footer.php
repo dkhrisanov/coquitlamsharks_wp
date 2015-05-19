@@ -16,9 +16,13 @@
 
 <script type="text/javascript">
     // menu fixes
-    $(document).ready(function(){
-         $('.menu-item-object-custom > a').attr('target','_blank');
+    $(document).ready(function () {
+        $('.menu-item-object-custom > a').attr('target', '_blank');
     });
+
+    if (!self == top) {
+        window.top.location.href = "http://www.coquitlamsharks.org";
+    }
 </script>
 </body>
 </html>
